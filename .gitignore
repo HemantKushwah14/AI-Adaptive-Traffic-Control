@@ -1,0 +1,25 @@
+# environments, caches, editors
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.env
+
+# generated or large artefacts (folders are kept through .gitkeep files)
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+runs/
+*.zip
+*.pt
+*.pth
+*.onnx
+
+# generated SUMO files (rebuilt by: python -m simulation.build_network)
+sumo_config/*.net.xml
+sumo_config/*.rou.xml
+
+.streamlit/secrets.toml
