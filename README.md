@@ -1,4 +1,4 @@
-# Adaptive Traffic Signal Optimization using Computer Vision and Deep Reinforcement Learning
+# Adaptive Traffic Signal Optimization using CV, DQN and Deep Reinforcement Learning
 
 M.Tech project. A four-way intersection is simulated in **Eclipse SUMO**. A **Deep Q-Network** chooses the next
 signal phase and the choice is applied to the real SUMO traffic light through **TraCI**, with enforced yellow and
